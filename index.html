@@ -6,7 +6,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/kognise/water.css@latest/dist/dark.min.css">
-  <script src="index.js"></script>
+  <script src="js/index.js"></script>
   <style>
     .error {
       color: orange;
@@ -19,8 +19,8 @@
   <h3><label for="hexinput">Hex Byte Array:</label></h3>
   <textarea rows="8" id="hexinput"></textarea>
   <div style="display: flex;flex-direction: row;justify-content: space-between">
-    <button onclick="erase()">Clear</button>
-    <button onclick="interpret()">Interpret</button>
+    <button id="clear">Clear</button>
+    <button id="interpret">Interpret</button>
   </div>
   <div id="output"></div>
 </body>
