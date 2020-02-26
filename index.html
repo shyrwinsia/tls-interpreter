@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>TLS Parser</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/kognise/water.css@latest/dist/dark.min.css">
+  <script src="index.js"></script>
+  <style>
+    .error {
+      color: orange;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>TLS Interpter</h1>
+  <h3><label for="hexinput">Hex Byte Array:</label></h3>
+  <textarea rows="8" id="hexinput"></textarea>
+  <div style="display: flex;flex-direction: row;justify-content: space-between">
+    <button onclick="erase()">Clear</button>
+    <button onclick="interpret()">Interpret</button>
+  </div>
+  <div id="output"></div>
+</body>
+
+</html>

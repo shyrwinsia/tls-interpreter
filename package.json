@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "parcel": "^1.12.4"
+  },
+  "scripts": {
+    "build": "parcel build index.html -d public",
+    "start": "parcel index.html"
+  },
+  "build": {
+    "env": {
+      "NODE_ENV": "production"
+    }
+  }
+}
